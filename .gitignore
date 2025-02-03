@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Allow specific code-related file types
+!*.py
+!*.sql
+!*.java
+!*.arff
+!*.ipynb
+!*.scala
+
+# Allow directories
+!*/
+
+# Ensure .gitignore is always tracked
+!.gitignore
