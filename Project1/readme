@@ -1,2 +1,20 @@
 CS667_Project_1.1 --first submission
 CS667_Project_1.2 --second submission replacing the credibility scoring
+  1.2 details
+    reliability score was using function "evaluate_reference_credibility". This just used a simple list of "trusted" domains that the input url domain was checked against a basic list:
+              # Define trusted domains and their scores
+        trusted_domains = {
+            'edu': 0.9,    # Educational institutions
+            'gov': 0.9,    # Government websites
+            'org': 0.7,    # Non-profit organizations
+        }
+        
+        # Define trusted sources
+        trusted_sources = {
+            'nature.com': 0.9,
+            'science.org': 0.9,
+            'scholar.google.com': 0.8,
+
+  now the function was upgraded using huggingface which uses 2 new libraries: transformers and torch. as a result, i had to downgrade the numpy to 1.0 as per error message.
+
+It actually works and kicked out a .649 score, so a little lower than i had hardcoded, so that's cool.
