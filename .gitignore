@@ -9,6 +9,7 @@
 !*.ipynb
 !*.scala
 !*.md
+!*.txt
 
 # Allow directories
 !*/
