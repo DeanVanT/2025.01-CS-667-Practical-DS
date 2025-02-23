@@ -8,6 +8,7 @@
 !*.arff
 !*.ipynb
 !*.scala
+!*.md
 
 # Allow directories
 !*/
