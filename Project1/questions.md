@@ -2,8 +2,9 @@ My words:
 1) simply put, an object would be synonomus with 'things' e.g, table, chair, car. to expand, you can have a function which would be a verb. I SIT (function) in a CHAIR (object).
 2) this is just a way to summarize the functionality and purpose of a block of code. opposed to basic comments that are notes inline with certain lines of code
 3) This is how you create new objects. by defining thier parameters, maybe height weight, size, odd or even, etc.
-4) This is best practices in coding. ensuring that the user can't input something that would fail and the prognram wouldn't provide an explanation (return error message) or end the program (not go into an infinite loop).
-5) i'd say make sure it's useful. aside from not returning a bad value or incompatible data type, or not returning at all and optimizing your functions to perform well, the usefullness of the return will directly impact the program. without usefull returns, the program itself will not be useful. Example would be a factorial function that implements a recursive function only to return if a value is greater than 100 when the user is looking for an exact number. kind of like our return scores. simply saying that a score 'passes' is a bit arbitrary and would be a bad return. returning all the numeric outputs with the explanations would be a good return for the user.
+    done by def __init__(self):
+4) This is best practices in coding. ensuring that the user can't input something that would fail and the prognram wouldn't provide an explanation (return error message) or end the program (not go into an infinite loop). Try/Catch/Except
+5) i'd say make sure it's useful. aside from not returning a bad value or incompatible data type, or not returning at all and optimizing your functions to perform well, the usefullness of the return will directly impact the program. without usefull returns, the program itself will not be useful. Example would be a factorial function that implements a recursive function only to return if a value is greater than 100 when the user is looking for an exact number. kind of like our return scores. simply saying that a score 'passes' is a bit arbitrary and would be a bad return. returning all the numeric outputs with the explanations in json format would be a good return for the user.
 
 
 Chat GPT outpt:
