@@ -1,9 +1,5 @@
-from tinytroupe import utils
-import tinytroupe
+##from tinytroupe import utils
+##import tinytroupe
 
-def simple_task():
-    print("TinyTroupe is working!")
-
-troupe = tinytroupe.Troupe()
-troupe.add(simple_task)
-troupe.run()
+lisa_ds = create_lisa_the_data_scientist()
+lisa_ds.listen_and_act("Tell me about your life")
