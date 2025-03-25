@@ -4,7 +4,9 @@
 First, I tried Codespace many times. after disabling my firewall, i can open the codespace on my local VS Code by 'pip install .' within the TinyTroupe directory. I also installed the package on my local machine
 from 'pip install git+https://github.com/microsoft/TinyTroupe.git@main' from the microsoft github instructions.
 
-Once that was done, the API Keys were not possible. This was a massive time suck and all together just not possible. This was NOT covered in the video. Sure, the video showed once you have the magic key, just do 'export OPENAI_API_KEY="xxxx"', but unfourtunatly nothing was covered on how to get these keys. I Cross referenced the  instructions from microsoft, which said do the same OPEN_API_KEY="xxx". No amount of chat GPT queries were of any value.
+Once that was done, the API Keys were not possible. This was a massive time suck and all together just not possible. This was NOT covered in the video. Sure, the video showed once you have the magic key, just do 'export OPENAI_API_KEY="xxxx"', but unfourtunatly nothing was covered on how to get these keys. I Cross referenced the  instructions from microsoft, which said do the same OPEN_API_KEY="xxx". I also tried the second microsoft option with Azure Open AI Service. I also created yet another key from the actual open AI website. All failed even after attempting in the remote codespace AND my local machine after installing the packages and setting the environment variable to each of the 3 keys I created. No amount of chat GPT queries were of any value.
+
+I attempted to run code in terminal window, i tried writing a py script. All failed
 
 So, theoretically, this is how you would do this, but in practice, the crutial steps simply were not covered. Hopefully i won't get charged for this service by microsoft as you need an Azure account and must create resource groups to get the keys (which i did), which are VERY ambiguous in the fees. 
 
